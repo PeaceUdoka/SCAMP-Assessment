@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,25 +5,28 @@
     </head>
     <style>
       body {
-    width:50%;
+    width:300px;
     height:auto;
-    background-color: white;
-    font-family: 'Varela';
+    background-color:white;
+    font-family:Georgia;
     border:hidden 0.5px;
-    padding:10px;
     margin:10% auto;
+    padding:10px;
     border-radius:10px;
-    box-shadow:10px 10px 10px grey; 
--10px -10px 10px grey;
+    box-shadow:10px 10px 10px #222;
 } 
     </style>
     <body>
+    <div style=" width:inherit;height:auto;">
+    <h1 style="border-bottom:solid; background-color:pink;
+    color:white;"> THE FIBONACCI SERIES</h1>
+</div>
+<div style="overflow:scroll"></div>
         <script>         
 var x = 0; 
 var y = 1; 
 var z=x+y;
 var num = prompt("Enter the limit for your series:",""); 
-document.write("THE FIBONACCI SERIES<br />")
 document.write("The following are the first "+num+" numbers in the fibonacci series: <br/>")
 for(i=1;i<=num;i++){
     document.write(i+")"+x+"<br />");
@@ -32,7 +34,7 @@ for(i=1;i<=num;i++){
     y=z;
     z=x+y;
 }
-document.write("<br />Made by Azubuogu Peace Udoka")
+document.write("<br />By Azubuogu Peace Udoka")
         </script>
     </body>
-</html
+</html>
