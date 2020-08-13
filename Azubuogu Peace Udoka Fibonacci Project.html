@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Azubuogu Peace Udoka JavaScript Project for SheCodesAfrica</title>
+    </head>
+    <style>
+      body {
+    width:50%;
+    height:auto;
+    background-color: #c6ecec;
+    border:hidden 0.5px;
+    margin:10% auto;
+    border-radius:10px;
+    box-shadow:10px 10px 10px #ffffff, 
+-10px -10px 10px #ffffff;
+} 
+    </style>
+    <body>
+        <script>         
+var x = 0; 
+var y = 1; 
+var z=x+y;
+var num = prompt("Enter the limit for your series:",""); 
+document.write("THE FIBONACCI SERIES<br />")
+document.write("The following are the first "+num+" numbers in the fibonacci series: <br/>")
+for(i=1;i<=num;i++){
+    document.write(i+")"+x+"<br />");
+    x=y;
+    y=z;
+    z=x+y;
+}
+document.write("<br />Made by Azubuogu Peace Udoka")
+        </script>
+    </body>
+</html
